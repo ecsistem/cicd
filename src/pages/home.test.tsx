@@ -10,7 +10,7 @@ describe('Home Component', () => {
 
   test('contains an h1 element with text "Trabalho de CI/CD"', () => {
     const { getByText } = render(<Home />);
-    const headingElement = getByText('Trabalho de CI/CD');
+    const headingElement = getByText('Trabalho de CI/CD in equipe');
     expect(headingElement.tagName).toBe('H1');
   });
 });

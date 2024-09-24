@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
-import { Home } from './home';
+import Home from './home';
 
 describe('Home Component', () => {
   test('renders without crashing', () => {
